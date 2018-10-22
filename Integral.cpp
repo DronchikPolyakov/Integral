@@ -11,8 +11,8 @@ double sincos(double x) {
 }
 double dIntegral(double(*func)(double x), double from, double to, double step)
 {
-	double i, S, dsum;
-	int n;
+	double S, dsum;
+	int n, i;
 	dsum = 0.;
 	S = 0.;
 	n = (to-from)/step;
